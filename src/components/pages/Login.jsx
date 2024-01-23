@@ -30,7 +30,7 @@ const Login = () => {
                             <button className="btn btn-primary">Login</button>
                         </div>
                         <div className="text-sm mt-4 font-medium ">
-                            Have an Account? <Link to="/signup" className="link link-primary">Sign Up</Link>
+                            Don&apos;t have an Account? <Link to="/signup" className="link link-primary">Sign Up</Link>
                         </div>
                     </form>
                 </div>
