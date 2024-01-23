@@ -1,9 +1,27 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import useAxiosPublic from '../hooks/useAxiosPublic';
+import { toast } from 'react-hot-toast';
 
 const SignUp = () => {
+    const axiosPublic = useAxiosPublic();
     // full name, role (House Owner or
     //     House Renter) (it must be selected as an option), phone number, email, and password
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const formData = new FormData(e.target);
+        const data = Object.fromEntries(formData);
+        console.log(data);
+        axiosPublic.post('/users/signup', data)
+            .then((res) => {
+                console.log(res.data);
+                toast.success('Sign Up Success!');
+            })
+            .catch((err) => {
+                console.log(err.response.data);
+            });
+
+    }
 
     return (
         <div className="hero min-h-screen bg-base-200">
@@ -13,18 +31,12 @@ const SignUp = () => {
                     <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                 </div>
                 <div className="card shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                    <form className="card-body">
+                    <form onSubmit={handleSubmit} className="card-body">
                         <div className="form-control">
                             <label className="label">
                                 <span className="label-text">Full Name</span>
                             </label>
-                            <input name="fullname" type="text" placeholder="full name" className="input input-bordered" required />
-                        </div>
-                        <div className="form-control">
-                            <label className="label">
-                                <span className="label-text">Phone Number</span>
-                            </label>
-                            <input name="phone" type="tel" placeholder="phone number" className="input input-bordered" required />
+                            <input name="fullName" type="text" placeholder="full name" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
@@ -34,6 +46,12 @@ const SignUp = () => {
                                 <option value="House Owner">House Owner</option>
                                 <option value="House Renter">House Renter</option>
                             </select>
+                        </div>
+                        <div className="form-control">
+                            <label className="label">
+                                <span className="label-text">Phone Number</span>
+                            </label>
+                            <input name="phoneNumber" type="tel" placeholder="phone number" className="input input-bordered" required />
                         </div>
                         <div className="form-control">
                             <label className="label">
