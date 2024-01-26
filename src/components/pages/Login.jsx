@@ -1,10 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import useAxiosPublic from '../hooks/useAxiosPublic';
 
 const Login = () => {
     const axiosPublic = useAxiosPublic();
-
+    const navigate = useNavigate();
     const handleSubmit = (e) => {
         e.preventDefault();
         const formData = new FormData(e.target);
@@ -18,7 +18,7 @@ const Login = () => {
                 // localStorage.setItem('user', JSON.stringify(res.data.user));
                 toast.success('Login Success!');
                 console.log(res);
-                window.location.href = '/';
+                navigate('/');
             })
             .catch((err) => {
                 console.log(err.response.data);

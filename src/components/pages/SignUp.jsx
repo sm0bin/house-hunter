@@ -20,6 +20,7 @@ const SignUp = () => {
                 // localStorage.setItem('user', JSON.stringify(res.data.user));
 
                 toast.success('Sign Up Success!');
+                navigate('/');
             })
             .catch((err) => {
                 console.log(err.response.data);
