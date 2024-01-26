@@ -10,6 +10,11 @@ import Login from "./components/pages/Login";
 import Home from "./components/pages/Home";
 import SignUp from "./components/pages/SignUp";
 import { Toaster } from "react-hot-toast";
+import {
+  QueryClient,
+  QueryClientProvider,
+} from '@tanstack/react-query'
+const queryClient = new QueryClient();
 
 const router = createBrowserRouter([
   {
@@ -39,7 +44,10 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <Toaster />
-    <RouterProvider router={router} />
+    <QueryClientProvider client={queryClient}>
+
+      <Toaster />
+      <RouterProvider router={router} />
+    </QueryClientProvider>
   </React.StrictMode>
 );
