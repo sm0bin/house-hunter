@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import useAxiosPublic from '../hooks/useAxiosPublic';
 import { toast } from 'react-hot-toast';
 
 const SignUp = () => {
     const axiosPublic = useAxiosPublic();
+    const navigate = useNavigate();
     // full name, role (House Owner or
     //     House Renter) (it must be selected as an option), phone number, email, and password
     const handleSubmit = (e) => {
@@ -15,6 +16,9 @@ const SignUp = () => {
         axiosPublic.post('/users/signup', data)
             .then((res) => {
                 console.log(res.data);
+                localStorage.setItem('token', res.data.token);
+                // localStorage.setItem('user', JSON.stringify(res.data.user));
+
                 toast.success('Sign Up Success!');
             })
             .catch((err) => {
