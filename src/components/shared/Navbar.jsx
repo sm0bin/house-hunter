@@ -3,7 +3,8 @@ import { NavLink } from 'react-router-dom';
 import useAuth from '../hooks/useAuth';
 
 const Navbar = () => {
-    const user = useAuth();
+    // const user = useAuth();
+    const user = { fullName: "John Doe", email: "place@gmail.com", role: "House Hunter" }
     console.log(user);
     const navLinks = [
         {
@@ -44,29 +45,65 @@ const Navbar = () => {
                     {navLinksMarkup}
                 </ul>
             </div>
+
             {
-                user &&
-                <div className="navbar-end">
-                    <div className="dropdown dropdown-end">
-                        <div tabIndex={0} className="avatar avatar-button avatar-circle">
-                            <span>{user.fullName}</span>
-                        </div>
-                        <ul tabIndex={0} className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
-                            <li>
-                                <a>Profile</a>
-                            </li>
-                            <li>
-                                <a>Settings</a>
-                            </li>
-                            <li>
-                                <a>Logout</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+                // user &&
+                // <div className="navbar-end">
+                //     <div className="dropdown dropdown-end">
+                //         <div tabIndex={0} className="avatar avatar-button avatar-circle">
+                //             <span>{user.fullName}</span>
+                //         </div>
+                //         <ul tabIndex={0} className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
+                //             <li>
+                //                 <a>Profile</a>
+                //             </li>
+                //             <li>
+                //                 <a>Settings</a>
+                //             </li>
+                //             <li>
+                //                 <a>Logout</a>
+                //             </li>
+                //         </ul>
+                //     </div>
+                // </div>
             }
             <div className="navbar-end">
-                <a className="btn btn-primary">Login</a>
+                {
+                    user ?
+                        // <div className="dropdown dropdown-end">
+                        //     <div tabIndex={0} role="button" className="btn m-1">
+                        //         <div className="avatar online placeholder">
+                        //             <div className="bg-neutral text-neutral-content rounded-full w-12">
+                        //                 <span className="text-xl">AI</span>
+                        //             </div>
+                        //         </div>
+                        //     </div>
+                        //     <ul tabIndex={0} className="dropdown-content z-[1] menu p-2 shadow bg-base-100 rounded-box w-52">
+                        //         <li><a>Item 1</a></li>
+                        //         <li><a>Item 2</a></li>
+                        //     </ul>
+                        // </div>
+                        // <div className="navbar-end">
+                        <div className="dropdown dropdown-end">
+                            <div tabIndex={0} className="avatar avatar-button avatar-circle">
+                                <span>{user.fullName}</span>
+                            </div>
+                            <ul tabIndex={0} className="p-2 shadow menu dropdown-content bg-base-100 rounded-box w-52">
+                                <li>
+                                    <a>Profile</a>
+                                </li>
+                                <li>
+                                    <a>Settings</a>
+                                </li>
+                                <li>
+                                    <a>Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        :
+                        <a className="btn btn-primary">Login</a>
+                }
             </div>
         </header>
     );
