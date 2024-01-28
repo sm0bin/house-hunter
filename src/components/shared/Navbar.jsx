@@ -1,10 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import useAuth from '../hooks/useAuth';
+import useLoadDataSecure from '../hooks/useLoadDataSecure';
 
 const Navbar = () => {
     // const user = useAuth();
-    const user = { fullName: "John Doe", email: "place@gmail.com", role: "House Hunter" }
+    // const user = { fullName: "John Doe", email: "place@gmail.com", role: "House Hunter" }
+    const [user, refetchUser] = useLoadDataSecure('/users/me', 'User');
     console.log(user);
     const navLinks = [
         {

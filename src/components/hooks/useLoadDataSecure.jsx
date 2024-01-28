@@ -11,7 +11,7 @@ const useLoadDataSecure = (url, key) => {
             return res.data
         }
     })
-    return [data, isPending, refetch, error];
+    return [data, refetch, isPending, error];
 };
 
 export default useLoadDataSecure;
