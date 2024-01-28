@@ -1,0 +1,467 @@
+[
+  {
+    "owner": "John Doe",
+    "city": "New York",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2500,
+    "thumbnail": "https://source.unsplash.com/qe0Tu9mVs7U",
+    "featuredImages": [
+      "https://source.unsplash.com/L7EwHkq1B2s",
+      "https://source.unsplash.com/U6Q6zVDgmSs",
+      "https://source.unsplash.com/MP0bgaS_d1c"
+    ]
+  },
+  {
+    "owner": "Alice Smith",
+    "city": "Los Angeles",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Coming Soon",
+    "rent": 1800,
+    "thumbnail": "https://source.unsplash.com/jn7uVeCdf6U",
+    "featuredImages": [
+      "https://source.unsplash.com/mx4mSkK9zeo",
+      "https://source.unsplash.com/_TPTXZd9mOo",
+      "https://source.unsplash.com/uOYak90r4L0"
+    ]
+  },
+  {
+    "owner": "David Williams",
+    "city": "San Francisco",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1500,
+    "thumbnail": "https://source.unsplash.com/U6Q6zVDgmSs",
+    "featuredImages": [
+      "https://source.unsplash.com/rChFUMwAe7E",
+      "https://source.unsplash.com/fsUVFq7hUgg",
+      "https://source.unsplash.com/U6Q6zVDgmSs"
+    ]
+  },
+  {
+    "owner": "Emily Johnson",
+    "city": "Chicago",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Coming Soon",
+    "rent": 3200,
+    "thumbnail": "https://source.unsplash.com/MP0bgaS_d1c",
+    "featuredImages": [
+      "https://source.unsplash.com/jn7uVeCdf6U",
+      "https://source.unsplash.com/mx4mSkK9zeo",
+      "https://source.unsplash.com/_TPTXZd9mOo"
+    ]
+  },
+  {
+    "owner": "Michael Brown",
+    "city": "Seattle",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2000,
+    "thumbnail": "https://source.unsplash.com/ylyn5r4vxcA",
+    "featuredImages": [
+      "https://source.unsplash.com/7OFTxbGWqwk",
+      "https://source.unsplash.com/Dr6VBM0KNsw",
+      "https://source.unsplash.com/z11gbBo13ro"
+    ]
+  },
+  {
+    "owner": "Sophia Davis",
+    "city": "Austin",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2200,
+    "thumbnail": "https://source.unsplash.com/_TPTXZd9mOo",
+    "featuredImages": [
+      "https://source.unsplash.com/uOYak90r4L0",
+      "https://source.unsplash.com/EItAcdPP-kk",
+      "https://source.unsplash.com/Jg2-zDy-oUg"
+    ]
+  },
+  {
+    "owner": "Daniel Garcia",
+    "city": "Denver",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1600,
+    "thumbnail": "https://source.unsplash.com/uOYak90r4L0",
+    "featuredImages": [
+      "https://source.unsplash.com/EItAcdPP-kk",
+      "https://source.unsplash.com/Jg2-zDy-oUg",
+      "https://source.unsplash.com/ylyn5r4vxcA"
+    ]
+  },
+  {
+    "owner": "Olivia Martinez",
+    "city": "Miami",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Coming Soon",
+    "rent": 1800,
+    "thumbnail": "https://source.unsplash.com/EItAcdPP-kk",
+    "featuredImages": [
+      "https://source.unsplash.com/Jg2-zDy-oUg",
+      "https://source.unsplash.com/ylyn5r4vxcA",
+      "https://source.unsplash.com/7OFTxbGWqwk"
+    ]
+  },
+  {
+    "owner": "Matthew Taylor",
+    "city": "Portland",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2300,
+    "thumbnail": "https://source.unsplash.com/Jg2-zDy-oUg",
+    "featuredImages": [
+      "https://source.unsplash.com/ylyn5r4vxcA",
+      "https://source.unsplash.com/7OFTxbGWqwk",
+      "https://source.unsplash.com/Dr6VBM0KNsw"
+    ]
+  },
+  {
+    "owner": "Ella Anderson",
+    "city": "San Diego",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2100,
+    "thumbnail": "https://source.unsplash.com/ylyn5r4vxcA",
+    "featuredImages": [
+      "https://source.unsplash.com/Dr6VBM0KNsw",
+      "https://source.unsplash.com/z11gbBo13ro",
+      "https://source.unsplash.com/sZ9F_XkGJfI"
+    ]
+  },
+  {
+    "owner": "Jackson Wilson",
+    "city": "Dallas",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Available Now",
+    "rent": 3000,
+    "thumbnail": "https://source.unsplash.com/7OFTxbGWqwk",
+    "featuredImages": [
+      "https://source.unsplash.com/Dr6VBM0KNsw",
+      "https://source.unsplash.com/z11gbBo13ro",
+      "https://source.unsplash.com/sZ9F_XkGJfI"
+    ]
+  },
+  {
+    "owner": "Ava Rodriguez",
+    "city": "Phoenix",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Coming Soon",
+    "rent": 1400,
+    "thumbnail": "https://source.unsplash.com/Dr6VBM0KNsw",
+    "featuredImages": [
+      "https://source.unsplash.com/z11gbBo13ro",
+      "https://source.unsplash.com/sZ9F_XkGJfI",
+      "https://source.unsplash.com/mR1CIDduGLc"
+    ]
+  },
+  {
+    "owner": "Logan Hernandez",
+    "city": "Atlanta",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2400,
+    "thumbnail": "https://source.unsplash.com/z11gbBo13ro",
+    "featuredImages": [
+      "https://source.unsplash.com/sZ9F_XkGJfI",
+      "https://source.unsplash.com/mR1CIDduGLc",
+      "https://source.unsplash.com/g39p1kDjvSY"
+    ]
+  },
+  {
+    "owner": "Abigail Smith",
+    "city": "Houston",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Coming Soon",
+    "rent": 1700,
+    "thumbnail": "https://source.unsplash.com/sZ9F_XkGJfI",
+    "featuredImages": [
+      "https://source.unsplash.com/mR1CIDduGLc",
+      "https://source.unsplash.com/g39p1kDjvSY",
+      "https://source.unsplash.com/aren8nutd1Q"
+    ]
+  },
+  {
+    "owner": "Carter Moore",
+    "city": "Philadelphia",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Available Now",
+    "rent": 3100,
+    "thumbnail": "https://source.unsplash.com/mR1CIDduGLc",
+    "featuredImages": [
+      "https://source.unsplash.com/g39p1kDjvSY",
+      "https://source.unsplash.com/aren8nutd1Q",
+      "https://source.unsplash.com/2gDwlIim3Uw"
+    ]
+  },
+  {
+    "owner": "Grace Davis",
+    "city": "Minneapolis",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 1900,
+    "thumbnail": "https://source.unsplash.com/aren8nutd1Q",
+    "featuredImages": [
+      "https://source.unsplash.com/2gDwlIim3Uw",
+      "https://source.unsplash.com/IYfp2Ixe9nM",
+      "https://source.unsplash.com/Hh18POSx5qk"
+    ]
+  },
+  {
+    "owner": "Lucas Thomas",
+    "city": "Las Vegas",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1300,
+    "thumbnail": "https://source.unsplash.com/2gDwlIim3Uw",
+    "featuredImages": [
+      "https://source.unsplash.com/IYfp2Ixe9nM",
+      "https://source.unsplash.com/Hh18POSx5qk",
+      "https://source.unsplash.com/2MA8dFvOMec"
+    ]
+  },
+  {
+    "owner": "Madison Turner",
+    "city": "Charlotte",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2200,
+    "thumbnail": "https://source.unsplash.com/Hh18POSx5qk",
+    "featuredImages": [
+      "https://source.unsplash.com/2MA8dFvOMec",
+      "https://source.unsplash.com/IYfp2Ixe9nM",
+      "https://source.unsplash.com/Hh18POSx5qk"
+    ]
+  },
+  {
+    "owner": "Benjamin Parker",
+    "city": "San Antonio",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2000,
+    "thumbnail": "https://source.unsplash.com/IYfp2Ixe9nM",
+    "featuredImages": [
+      "https://source.unsplash.com/Hh18POSx5qk",
+      "https://source.unsplash.com/2MA8dFvOMec",
+      "https://source.unsplash.com/fsUVFq7hUgg"
+    ]
+  },
+  {
+    "owner": "Lily Ward",
+    "city": "Detroit",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Coming Soon",
+    "rent": 2800,
+    "thumbnail": "https://source.unsplash.com/2MA8dFvOMec",
+    "featuredImages": [
+      "https://source.unsplash.com/IYfp2Ixe9nM",
+      "https://source.unsplash.com/Hh18POSx5qk",
+      "https://source.unsplash.com/2MA8dFvOMec"
+    ]
+  },
+  {
+    "owner": "Christopher Foster",
+    "city": "Raleigh",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1500,
+    "thumbnail": "https://source.unsplash.com/fsUVFq7hUgg",
+    "featuredImages": [
+      "https://source.unsplash.com/U6Q6zVDgmSs",
+      "https://source.unsplash.com/rChFUMwAe7E",
+      "https://source.unsplash.com/aren8nutd1Q"
+    ]
+  },
+  {
+    "owner": "Hannah Martinez",
+    "city": "Tampa",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2300,
+    "thumbnail": "https://source.unsplash.com/rChFUMwAe7E",
+    "featuredImages": [
+      "https://source.unsplash.com/fsUVFq7hUgg",
+      "https://source.unsplash.com/U6Q6zVDgmSs",
+      "https://source.unsplash.com/aren8nutd1Q"
+    ]
+  },
+  {
+    "owner": "Hannah Martinez",
+    "city": "Tampa",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2300,
+    "thumbnail": "https://source.unsplash.com/2MA8dFvOMec",
+    "featuredImages": [
+      "https://source.unsplash.com/IYfp2Ixe9nM",
+      "https://source.unsplash.com/Hh18POSx5qk",
+      "https://source.unsplash.com/2MA8dFvOMec"
+    ]
+  },
+  {
+    "owner": "Nathan Lopez",
+    "city": "Cleveland",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Available Now",
+    "rent": 1700,
+    "thumbnail": "https://source.unsplash.com/rChFUMwAe7E",
+    "featuredImages": [
+      "https://source.unsplash.com/fsUVFq7hUgg",
+      "https://source.unsplash.com/U6Q6zVDgmSs",
+      "https://source.unsplash.com/rChFUMwAe7E"
+    ]
+  },
+  {
+    "owner": "Zoe Brooks",
+    "city": "Indianapolis",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Coming Soon",
+    "rent": 3200,
+    "thumbnail": "https://source.unsplash.com/U6Q6zVDgmSs",
+    "featuredImages": [
+      "https://source.unsplash.com/rChFUMwAe7E",
+      "https://source.unsplash.com/fsUVFq7hUgg",
+      "https://source.unsplash.com/U6Q6zVDgmSs"
+    ]
+  },
+  {
+    "owner": "Evan Flores",
+    "city": "Orlando",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2100,
+    "thumbnail": "https://source.unsplash.com/fsUVFq7hUgg",
+    "featuredImages": [
+      "https://source.unsplash.com/rChFUMwAe7E",
+      "https://source.unsplash.com/U6Q6zVDgmSs",
+      "https://source.unsplash.com/fsUVFq7hUgg"
+    ]
+  },
+  {
+    "owner": "Avery Hughes",
+    "city": "St. Louis",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2400,
+    "thumbnail": "https://source.unsplash.com/Hh18POSx5qk",
+    "featuredImages": [
+      "https://source.unsplash.com/2MA8dFvOMec",
+      "https://source.unsplash.com/IYfp2Ixe9nM",
+      "https://source.unsplash.com/Hh18POSx5qk"
+    ]
+  },
+  {
+    "owner": "Peyton Clark",
+    "city": "Pittsburgh",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1600,
+    "thumbnail": "https://source.unsplash.com/rChFUMwAe7E",
+    "featuredImages": [
+      "https://source.unsplash.com/fsUVFq7hUgg",
+      "https://source.unsplash.com/U6Q6zVDgmSs",
+      "https://source.unsplash.com/rChFUMwAe7E"
+    ]
+  },
+  {
+    "owner": "Brooklyn Robinson",
+    "city": "Kansas City",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Coming Soon",
+    "rent": 1800,
+    "thumbnail": "https://source.unsplash.com/U6Q6zVDgmSs",
+    "featuredImages": [
+      "https://source.unsplash.com/rChFUMwAe7E",
+      "https://source.unsplash.com/fsUVFq7hUgg",
+      "https://source.unsplash.com/U6Q6zVDgmSs"
+    ]
+  },
+  {
+    "owner": "Cameron Turner",
+    "city": "Nashville",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2300,
+    "thumbnail": "https://source.unsplash.com/2MA8dFvOMec",
+    "featuredImages": [
+      "https://source.unsplash.com/IYfp2Ixe9nM",
+      "https://source.unsplash.com/Hh18POSx5qk",
+      "https://source.unsplash.com/2MA8dFvOMec"
+    ]
+  },
+  {
+    "owner": "Skylar Garcia",
+    "city": "Salt Lake City",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2000,
+    "thumbnail": "https://source.unsplash.com/U6Q6zVDgmSs",
+    "featuredImages": [
+      "https://source.unsplash.com/rChFUMwAe7E",
+      "https://source.unsplash.com/fsUVFq7hUgg",
+      "https://source.unsplash.com/U6Q6zVDgmSs"
+    ]
+  }
+]

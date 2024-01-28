@@ -1,0 +1,272 @@
+[
+  {
+    "owner": "John Doe",
+    "city": "New York",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2500
+  },
+  {
+    "owner": "Alice Smith",
+    "city": "Los Angeles",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Coming Soon",
+    "rent": 1800
+  },
+  {
+    "owner": "David Williams",
+    "city": "San Francisco",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1500
+  },
+  {
+    "owner": "Emily Johnson",
+    "city": "Chicago",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Coming Soon",
+    "rent": 3200
+  },
+  {
+    "owner": "Michael Brown",
+    "city": "Seattle",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2000
+  },
+  {
+    "owner": "Sophia Davis",
+    "city": "Austin",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2200
+  },
+  {
+    "owner": "Daniel Garcia",
+    "city": "Denver",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1600
+  },
+  {
+    "owner": "Olivia Martinez",
+    "city": "Miami",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Coming Soon",
+    "rent": 1800
+  },
+  {
+    "owner": "Matthew Taylor",
+    "city": "Portland",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2300
+  },
+  {
+    "owner": "Ella Anderson",
+    "city": "San Diego",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2100
+  },
+  {
+    "owner": "Jackson Wilson",
+    "city": "Dallas",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Available Now",
+    "rent": 3000
+  },
+  {
+    "owner": "Ava Rodriguez",
+    "city": "Phoenix",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Coming Soon",
+    "rent": 1400
+  },
+  {
+    "owner": "Logan Hernandez",
+    "city": "Atlanta",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2400
+  },
+  {
+    "owner": "Abigail Smith",
+    "city": "Houston",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Coming Soon",
+    "rent": 1700
+  },
+  {
+    "owner": "Carter Moore",
+    "city": "Philadelphia",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Available Now",
+    "rent": 3100
+  },
+  {
+    "owner": "Grace Davis",
+    "city": "Minneapolis",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 1900
+  },
+  {
+    "owner": "Lucas Thomas",
+    "city": "Las Vegas",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1300
+  },
+  {
+    "owner": "Madison Turner",
+    "city": "Charlotte",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2200
+  },
+  {
+    "owner": "Benjamin Parker",
+    "city": "San Antonio",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2000
+  },
+  {
+    "owner": "Lily Ward",
+    "city": "Detroit",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Coming Soon",
+    "rent": 2800
+  },
+  {
+    "owner": "Christopher Foster",
+    "city": "Raleigh",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1500
+  },
+  {
+    "owner": "Hannah Martinez",
+    "city": "Tampa",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2300
+  },
+  {
+    "owner": "Nathan Lopez",
+    "city": "Cleveland",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Available Now",
+    "rent": 1700
+  },
+  {
+    "owner": "Zoe Brooks",
+    "city": "Indianapolis",
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "roomSize": "Large",
+    "availability": "Coming Soon",
+    "rent": 3200
+  },
+  {
+    "owner": "Evan Flores",
+    "city": "Orlando",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2100
+  },
+  {
+    "owner": "Avery Hughes",
+    "city": "St. Louis",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2400
+  },
+  {
+    "owner": "Peyton Clark",
+    "city": "Pittsburgh",
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "roomSize": "Compact",
+    "availability": "Available Now",
+    "rent": 1600
+  },
+  {
+    "owner": "Brooklyn Robinson",
+    "city": "Kansas City",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "roomSize": "Small",
+    "availability": "Coming Soon",
+    "rent": 1800
+  },
+  {
+    "owner": "Cameron Turner",
+    "city": "Nashville",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Available Now",
+    "rent": 2300
+  },
+  {
+    "owner": "Skylar Garcia",
+    "city": "Salt Lake City",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "roomSize": "Medium",
+    "availability": "Coming Soon",
+    "rent": 2000
+  }
+]
