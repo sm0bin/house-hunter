@@ -5,7 +5,27 @@ const Houses = () => {
     const [houses, isHousesLoading, refetchHouses] = useLoadData('/houses', 'Houses')
 
     return (
-        <div>
+        <div className='mx-4 md:mx-5 lg:mx-auto max-w-7xl'>
+            <div className='text-center py-8 flex justify-between items-center'>
+                <h1 className='text-4xl font-bold'>Houses</h1>
+
+                <div className="join">
+                    <div>
+                        <div>
+                            <input className="input input-bordered join-item" placeholder="Search" />
+                        </div>
+                    </div>
+                    <select className="select select-bordered join-item">
+                        <option disabled selected>Filter</option>
+                        <option>Sci-fi</option>
+                        <option>Drama</option>
+                        <option>Action</option>
+                    </select>
+                    <div className="indicator">
+                        <button className="btn btn-primary join-item">Search</button>
+                    </div>
+                </div>
+            </div>
 
             <div>
                 {
